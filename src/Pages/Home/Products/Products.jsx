@@ -1,9 +1,9 @@
-import product1 from '../../../assets/images/products/1.png'
-import product2 from '../../../assets/images/products/2.png'
-import product3 from '../../../assets/images/products/3.png'
-import product4 from '../../../assets/images/products/4.png'
-import product5 from '../../../assets/images/products/5.png'
-import product6 from '../../../assets/images/products/6.png'
+import product1 from '../../../assets/images/products/1.png';
+import product2 from '../../../assets/images/products/2.png';
+import product3 from '../../../assets/images/products/3.png';
+import product4 from '../../../assets/images/products/4.png';
+import product5 from '../../../assets/images/products/5.png';
+import product6 from '../../../assets/images/products/6.png';
 import { FaStar } from "react-icons/fa";
 
 const Products = () => {
