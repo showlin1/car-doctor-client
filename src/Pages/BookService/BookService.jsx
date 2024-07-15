@@ -1,13 +1,15 @@
-import { useContext } from "react";
+// import { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
-import { AuthContext } from "../../Providers/AuthProvider";
+import useAuth from "../../hooks/useAuth";
+// import { AuthContext } from "../../Providers/AuthProvider";
 
 
 const BookService = () => {
     const service = useLoaderData();
     const { title, _id, price, img } = service;
 
-    const { user } = useContext(AuthContext);
+    const {user}=useAuth();
+    // const { user } = useContext(AuthContext);
 
     const handleService = event => {
         event.preventDefault();
